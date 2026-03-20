@@ -10,14 +10,14 @@
   <meta name="author" content="Dr. Hendra Kusuma" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="googlebot" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://journal-iit.github.io/article/amerikatoto-platform-usability-2026.html" />
+  <link rel="canonical" href="https://journal-uts.com/article/amerikatoto-platform-usability-2026.html" />
 
   <!-- OG -->
   <meta property="og:title" content="Amerikatoto 2026 — Situs Terpercaya & Studi Usabilitas Platform MPUI" />
   <meta property="og:description" content="Penelitian usabilitas platform Amerikatoto 2026 menggunakan kerangka MPUI. Login mudah, antarmuka bersih, performa stabil di semua perangkat Android." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://journal-iit.github.io/article/amerikatoto-platform-usability-2026.html" />
-  <meta property="og:image" content="https://placehold.co/1200x630/1e293b/34d399?text=Amerikatoto+2026" />
+  <meta property="og:url" content="https://journal-uts.com/article/amerikatoto-platform-usability-2026.html" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504707134686-f33bf8c4f5e4?w=1200&h=630&fit=crop&q=85&auto=format" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/jpeg" />
@@ -34,7 +34,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Amerikatoto 2026 — Situs Terpercaya & Studi MPUI" />
   <meta name="twitter:description" content="Studi MPUI: mengapa Amerikatoto menjadi platform Android terpercaya di 2026. Login cepat, antarmuka intuitif, skor usabilitas 4.6/5.0." />
-  <meta name="twitter:image" content="https://placehold.co/1200x630/1e293b/34d399?text=Amerikatoto+2026" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1504707134686-f33bf8c4f5e4?w=1200&h=630&fit=crop&q=85&auto=format" />
   <meta name="twitter:image:alt" content="Amerikatoto platform 2026 studi usabilitas" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,9 +55,13 @@
         "publisher": {"@type": "Organization", "name": "Jurnal Studi Platform Digital", "url": "https://journal-iit.github.io"},
         "datePublished": "2026-03-17",
         "dateModified": "2026-03-17",
-        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://journal-iit.github.io/article/amerikatoto-platform-usability-2026.html"},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://journal-uts.github.io/article/amerikatoto-platform-usability-2026.html"},
         "image": "https://loremflickr.com/1200/630/mobile,platform,digital,technology?lock=143",
-        "keywords": ["Amerikatoto", "Amerikatoto terpercaya", "situs Amerikatoto", "MPUI framework", "platform usability", "daftar Amerikatoto 2026"]
+        "keywords": ["Amerikatoto", "Amerikatoto terpercaya", "situs Amerikatoto", "MPUI framework", "platform usability", "daftar Amerikatoto 2026"],
+        "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1.page-title", ".abstract-band p", ".faq-ans", ".answer-box"]
+      }
       },
       {
         "@type": "FAQPage",
@@ -360,40 +364,33 @@
 </div>
 
 <!-- GOOGLE DISCOVER HERO IMG -->
-<div id="pexels-hero" style="width:100%;background:#1e293b;min-height:360px;display:flex;align-items:center;justify-content:center;">
-  <img id="pexels-img"
-    src=""
+<div id="pexels-hero" style="width:100%;line-height:0;">
+  <img id="hero-img"
+    src="https://images.unsplash.com/photo-1504707134686-f33bf8c4f5e4?w=1200&h=630&fit=crop&q=85&auto=format"
     alt="Amerikatoto situs terpercaya 2026 — studi usabilitas platform MPUI"
     width="1200" height="630"
     fetchpriority="high" loading="eager"
-    style="display:none;width:100%;height:auto;max-height:480px;object-fit:cover;"
+    style="display:block;width:100%;height:auto;max-height:480px;object-fit:cover;"
+    onerror="this.style.display='none'"
   />
-  <span id="pexels-loader" style="color:#34d399;font-family:'Inter',sans-serif;font-size:.9rem;opacity:.7;">Memuat gambar…</span>
 </div>
 <script>
 (function(){
-  var PEXELS_KEY = 'DzukNzgiaNTwcfPoSIdOud1LT3P2S2lRyCwZb7ic8FCNFPk5FjYsTnq2';
-  var queries = ['mobile technology','smartphone android','digital platform','mobile app'];
-  var q = queries[Math.floor(Math.random()*queries.length)];
-  fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent(q)+'&per_page=10&orientation=landscape&size=large',{
-    headers:{'Authorization': PEXELS_KEY}
-  })
-  .then(function(r){return r.json();})
+  var KEY='DzukNzgiaNTwcfPoSIdOud1LT3P2S2lRyCwZb7ic8FCNFPk5FjYsTnq2';
+  var qs=['mobile app interface design','ux ui smartphone'];
+  var q=qs[Math.floor(Math.random()*qs.length)];
+  fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent(q)+'&per_page=15&orientation=landscape&size=large',{
+    headers:{'Authorization':KEY}
+  }).then(function(r){return r.json();})
   .then(function(d){
-    if(d.photos && d.photos.length){
-      var pick = d.photos[Math.floor(Math.random()*d.photos.length)];
-      var img = document.getElementById('pexels-img');
-      var loader = document.getElementById('pexels-loader');
-      img.src = pick.src.large2x || pick.src.large || pick.src.original;
-      img.onload = function(){
-        img.style.display='block';
-        if(loader) loader.style.display='none';
-        /* also update OG if previewing locally */
-      };
-      img.onerror = function(){ if(loader) loader.style.display='none'; };
+    if(d.photos&&d.photos.length){
+      var p=d.photos[Math.floor(Math.random()*d.photos.length)];
+      var img=document.getElementById('hero-img');
+      var hi=new Image();
+      hi.onload=function(){img.src=hi.src;};
+      hi.src=p.src.large2x||p.src.large||p.src.original;
     }
-  })
-  .catch(function(){ document.getElementById('pexels-loader').style.display='none'; });
+  }).catch(function(){});
 })();
 </script>
 
@@ -730,7 +727,7 @@
     <div class="related-card">
       <div class="rc-tag">Studi Terkait · Amerikatoto Research</div>
       <h4>Amerikatoto Android App 2026 — Studi Adopsi Platform (Pendekatan AMPI)</h4>
-      <p>Untuk perspektif komplementer tentang Amerikatoto dari sudut pandang indeks adopsi platform (bukan usabilitas), lihat studi paralel di <a href="https://journal-uts.github.io/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io · amerikatoto-android-app-2026</a>. Kedua studi menganalisis platform yang sama dengan kerangka yang berbeda — MPUI dalam penelitian ini berfokus pada usabilitas dan kepercayaan, sementara studi UTS berfokus pada arsitektur adopsi dan kecepatan onboarding.</p>
+      <p>Untuk perspektif komplementer tentang Amerikatoto dari sudut pandang indeks adopsi platform (bukan usabilitas), lihat studi paralel di <a href="https://journal-uts.com/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io · amerikatoto-android-app-2026</a>. Kedua studi menganalisis platform yang sama dengan kerangka yang berbeda — MPUI dalam penelitian ini berfokus pada usabilitas dan kepercayaan, sementara studi UTS berfokus pada arsitektur adopsi dan kecepatan onboarding.</p>
     </div>
   </div>
 
@@ -771,11 +768,18 @@
     </details>
     <details>
       <summary>Di mana saya bisa menemukan studi lain tentang Amerikatoto?</summary>
-      <div class="faq-ans">Studi komplementer tentang Amerikatoto dari perspektif indeks adopsi platform (AMPI) tersedia di <a href="https://journal-uts.github.io/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io · amerikatoto-android-app-2026</a>. Studi tersebut menggunakan pendekatan berbeda — berfokus pada perilaku unduhan, kecepatan onboarding, dan konsistensi lintas perangkat — yang melengkapi temuan usabilitas dalam penelitian ini.</div>
+      <div class="faq-ans">Studi komplementer tentang Amerikatoto dari perspektif indeks adopsi platform (AMPI) tersedia di <a href="https://journal-uts.com/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io · amerikatoto-android-app-2026</a>. Studi tersebut menggunakan pendekatan berbeda — berfokus pada perilaku unduhan, kecepatan onboarding, dan konsistensi lintas perangkat — yang melengkapi temuan usabilitas dalam penelitian ini.</div>
     </details>
   </div>
 
   <!-- Refs -->
+  
+
+  <!-- Internal link — companion article same platform -->
+  <div style="background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid #3b82f6;border-radius:0 8px 8px 0;padding:16px 20px;margin:28px 0;">
+    <div style="font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1d4ed8;font-family:ui-monospace,monospace;margin-bottom:6px;">📚 Companion Study</div>
+    <p style="font-size:.87rem;color:#374151;margin:0;font-family:system-ui,sans-serif;">Related research: <a href="https://journal-uts.github.io/article/amerikatoto-android-app-2026.html" style="color:#1d4ed8;font-weight:700;">Amerikatoto Android App 2026 — AMPI Study</a></p>
+  </div>
   <div class="refs">
     <h3>Referensi</h3>
     <ol>
@@ -819,14 +823,22 @@
   </div>
   <div class="bc-note">
     Link resmi: <a href="https://olx707a.lol/?Ref=fZCDk6T7" target="_blank" rel="noopener">olx707a.lol/?Ref=fZCDk6T7</a>
-    &nbsp;·&nbsp; Studi terkait: <a href="https://journal-uts.github.io/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io</a>
+    &nbsp;·&nbsp; Studi terkait: <a href="https://journal-uts.com/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">journal-uts.github.io</a>
   </div>
 </div>
 
 <footer class="page-footer">
-  <span>© 2026 Jurnal Studi Platform Digital · <a href="https://journal-iit.github.io/article/amerikatoto-platform-usability-2026.html">amerikatoto-platform-usability-2026.html</a></span>
-  <span><a href="https://journal-uts.github.io/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">Studi Terkait · journal-uts.github.io</a></span>
+  <span>© 2026 Jurnal Studi Platform Digital · <a href="https://journal-uts.com/article/amerikatoto-platform-usability-2026.html">amerikatoto-platform-usability-2026.html</a></span>
+  <span><a href="https://journal-uts.com/article/amerikatoto-android-app-2026.html" target="_blank" rel="noopener">Studi Terkait · journal-uts.github.io</a></span>
 </footer>
 
+
+<!-- Internal link to A-class guide -->
+<div style="background:#f0fdf4;border-left:4px solid #22c55e;border-radius:0 8px 8px 0;padding:14px 18px;margin:24px 0;">
+  <p style="margin:0;font-size:.9rem;color:#052e16;font-family:system-ui,sans-serif;">
+    📱 <strong>Panduan akses lengkap:</strong>
+    <a href="https://journal-uts.com/article/amerikatoto-app-2026.html" style="color:#16a34a;font-weight:700;">Login &amp; Daftar Amerikatoto 2026 — Panduan Resmi →</a>
+  </p>
+</div>
 </body>
 </html>
